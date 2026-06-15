@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid greenyellow;
+    color: blue; /* quando digitar a cor da fonte da caixa fica azul */
+}
+
+input::placeholder {
+    color: firebrick; /* o texto que fica dentro da caixa antes de digitar fica rosa*/
+}
+ 
+
+p::first-letter{
+    color: crimson;       /* muda de cor letra */
+}
+
+
+p::first-line {              /* muda de cor a primeira linha */
+   color: darksalmon;
+}
+
+a{
+    color: green;
+    text-decoration: none;       /* tira o barra embaixo do link */
+}
+
+a::before{
+    content: "➜";             /* o objeto fica antes do conteúdo */
+}
+
+a::after {
+    content: "🠔";            /* o objeto fica depois do objeto */
+}
+
+.cor{
+    color: orange;
+    text-decoration: none;
+}
+

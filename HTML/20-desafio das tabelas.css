@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, th, td {
+  border: 3px solid white;
+  border-collapse: collapse;
+  border-radius: 12px;
+}
+.ad{
+    margin-right: 35px;
+    
+}
+
+td{
+    text-align: center;
+}
+
+tr{
+    background: green;
+    color: white;
+}

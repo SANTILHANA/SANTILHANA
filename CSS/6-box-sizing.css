@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: #ffd700;
+    padding: 20px;
+    border: 10px solid #449147 ;
+}
+
+
+
+/* BOX-SIZING  é uma propriedade do CSS que define como a largura (width) e a altura (height) de um elemento são calculadas. 
+   Ela determina se as bordas (border) e os espaçamentos internos (padding) devem ser somados às dimensões definidas ou contidos dentro delas */
+
+/*  box-sizing: content-box (Valor padrão)Neste modelo, as propriedades width e height aplicam-se apenas ao conteúdo do elemento.
+O problema: Qualquer padding ou border que você adicionar será somado por fora. Se você definir uma caixa com width: 200px e adicionar padding: 20px, a caixa ocupará 240px na tela,
+ o que costuma quebrar layouts. */
+
+ /* box-sizing: border-box (O padrão moderno) 
+ Neste modelo, width e height determinam o tamanho total da caixa do elemento */

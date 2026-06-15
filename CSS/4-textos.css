@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+h1{
+    color: burlywood;  /* cor da letra da tag*/
+    font-size: 64px;  /* tamanho da fonte da tag */
+    font-weight: bolder; /* espressura da fonte */
+    font-style: italic;  /* estilo da fonte */
+    text-shadow: 10px 10px 9px yellowgreen ; /* adiciona sombras ao elemento do texto */
+    text-align: center;
+   
+}
+
+p{
+    color: blue;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 30px; /* altura das linhas */
+    letter-spacing: 1px; /* espaçamento entre as letras */
+    word-spacing: 5px ;  /* espaçamento entre as palavras */
+    text-align: center;  /* alinhamneto do texto  */
+    text-transform: capitalize ; /* alterar a formatação, o uso de maiúsculas ou a estrutura do texto*/    
+    /* uppercase lowercase unset capitalize  */ 
+    text-decoration: dashed; /* é uma abreviação usada para definir a aparência de linhas decorativas em um texto.*/
+    
+}

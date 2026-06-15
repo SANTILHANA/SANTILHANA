@@ -1,0 +1,43 @@
+                      /* UNIDADES DE MEDIDAS */
+
+
+
+
+    /* ABSOLUTAS
+
+         px ( PIXELS )
+         in ( INCHES/POLEGADAS )
+         cm / mm ( CENTÍMETROS / MILÍMETRO )
+         
+         
+         
+       RELATIVAS
+    
+        %   calcula o tamanho relativo ao elemento pai
+        vw  ( view width ) 1vw é 1% da largura da janela do navegador
+        vh  ( view right ) 1vh é 1% da altura da janela do navegador 
+        em   é uma unidade relativa ao elemento pai   
+        rem  é uma unidade relativa ao elemento raíz 
+        
+    */                  
+
+
+    .vo{
+        font-size: 16px;
+        
+    }
+
+    .pai{
+      width: 50vw;
+      height: 50vh;
+      background: blue;
+      color: #ffffff;
+      font-size: 2em;
+    }
+
+    .filho{
+        width: 50%;
+        height: 50%;
+        background: red;
+        font-size: 2em;
+    }

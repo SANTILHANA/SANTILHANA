@@ -1,0 +1,34 @@
+                           /* MARGIN E PADDING */
+
+
+/* Padding é o espaçamento interno de um elemento (entre o conteúdo e a borda), */
+/* Margin é o espaçamento externo (a distância entre a borda do elemento e outros elementos ao redor).*/
+
+
+/* Quando aplicar três valores é nessa orden */
+ /* cima  direita-esquerda  e  baixo*/
+
+
+ /* Quando aplica dois valores  */
+ /* cima-embaixo direita-esquerda */
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff17c1;
+    color: aliceblue;
+    margin: 10px    50px      30px     5px ;
+    /*      cima    direita   baixo    esquerda  */
+    }
+
+.box-2 {
+
+    width: 50px;
+    height: 50px;
+    background: #F59E0B ;
+    margin: 50px;
+    padding: 30px;
+    }
+
+ 

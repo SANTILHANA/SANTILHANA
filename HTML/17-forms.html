@@ -1,0 +1,40 @@
+                           <!-- FORMS -->
+
+ <!--Capturar dados de entrada --> 
+ <!--Input => Entrada  -->
+ 
+ <!-- Action => define para qual url será enviado os dados, vazio envia para mesma url 
+  Method
+      -GET é a comunicação entre a URL e seu computador tablet celular etc...
+       ex: o google se comunica pelo método GET 
+      -POST é a comunicação não visível na URL 
+       ex: senhas 
+  -->
+       <!--multipart/form-data é pra avisar pro servidor que está enviando
+        mais arquivos no formulário
+        ex: fotos-->
+
+
+
+  <form action="" method="get" enctype="multipart/form-data">
+    <h2>Qual é o seu endereço ?</h2>
+    <label>
+        Rua:
+         <input type="text" name="rua" autocomplete="street-address">
+    </label>
+    
+    <label>
+        Número:
+        <input type="number" name="numero" placeholder="ex. 123">
+    </label>
+    <label> 
+        Email:
+        <input type="email" name="email">
+    </label>
+    <label>
+        Foto:
+        <input type="file" name="arquivo">
+    </label>
+    <button type="reset">Limpar Dados</button>
+    <button type="submit">Enviar Dados</button>
+  </form>

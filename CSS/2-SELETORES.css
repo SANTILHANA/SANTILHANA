@@ -1,0 +1,39 @@
+                      /* IDENTIFICANDO ELEMENTOS HTML */
+   
+    /* CLASS (classes)  a classe seria como um CEP. Ela serve parqa identificar vários 
+    elementos . Ou seja, vários elementos HTML podem usar a mesmo classe, e conseguimos 
+    estililzalos no CSS */
+    
+    /* ID (identificador único) Jpa o ID seria como seu CPF ou RG . Ele serve para identificar 
+    apenas um elemento, Ou seja, você só pode usar um ID específico uma vez na sua página HTML */
+
+
+#titulo{
+    color: burlywood; /* cor da letra da tag*/
+    background: brown; /* cor de fundo da tag */
+}
+
+#paragrafo{
+    color: blue;
+    font-size: 20px; /* tamanho da fonte */
+    font-weight: bold; /* grossura da fonte */
+}
+
+#botao{
+    background: green;
+    border-color: darkgreen; /* cor da borda */
+}
+#outro-botao{
+    background: chocolate;
+}
+
+.texto{
+    color: fuchsia;
+    font-weight: bold;
+    
+}
+
+.botao{
+    background: indianred;
+    color: aliceblue;
+}

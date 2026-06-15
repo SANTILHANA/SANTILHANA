@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: navajowhite;
+}
+span:first-of-type{
+    color: orangered;
+}
+p:first-of-type{
+    color: brown;
+}
+*/
+.container :not(.excluido) {
+    color: skyblue;
+}
+
+

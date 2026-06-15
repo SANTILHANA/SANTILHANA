@@ -1,0 +1,40 @@
+                               /* RESPOSIVIDADE  */
+
+ /* All: para todos os dispositivos */
+ /* Braille : para dispositivos táteis */
+ /* Embossed : para dispositivos que imprimem em braille */
+ /* handheld : para dispositivos portáteis, geralmente com telas pequenas e banda limitada */
+ /* print : para impressora em papel */ 
+ /* projection : para apresentações como PPS */
+ /* screen : para monitores ou dispositivos com telas coloridads e resolução adequada */
+ /* speech : para sintetizadores de voz. as css 2 tem uma especificação de CSS chamada de Aural,
+ onde podemos formatar a voz dos sentizadores */
+ 
+ /* ORIENTAÇÃO */
+
+ /* portait -> altura maior que a largura (celular em pé)*/
+ /* landscape -> largura maior que a altura (celular deitado)*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 700px;
+    width: 700px;
+    background: blue;
+}
+
+@media (max-width : 600px) {
+
+    div{
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}
+/* @media é como se fosse uma condição limitando as funções */
+/* nesse exemplo só vai aplicar quando o background for menos que 600 px  */
+/* a partir de 601px nesse caso ficará azul no caso o width porque estás especificado */
